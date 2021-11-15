@@ -1,3 +1,18 @@
-.Square{
-    align-items:stretch
-}
+.square {
+  width: 90px;
+  height: 90px;
+  font-size: 50px;
+  margin: 5px;
+  color: #111;
+  background-color: #fff;
+  border-radius: 6px;
+  }
+  
+  .square:hover {
+    background-color: #5575df;
+  }
+
+  .square-won {
+    background-color: #5575df;
+  }
+  
