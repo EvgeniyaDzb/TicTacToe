@@ -3,7 +3,7 @@ import './Square.css';
 
 export function Square(props) {
       return(
-        <button className="square" 
+        <button className={"square " + (props.isWinning ? "square-won" : "")}
            onClick={props.onClick}>
           {props.value}
         </button>

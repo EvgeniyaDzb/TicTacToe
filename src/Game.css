@@ -1,6 +1,41 @@
-.Game {
+.game {
+  display: flex;
+  flex-direction: column;
+}
+.game-title{
   text-align: center;
+  font-size: 3em;
+  margin: 1rem 0;
 }
 
+.game-status{
+  text-align: center;
+  font-size: 2em;
+  margin: 1rem 0;
+}
 
+.game-board{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.game-info {
+  /* position: absolute;
+  right: 50px; */
+  list-style-type: none;
+}
+
+.history-btn{
+  background-color: white;
+  border: 2px solid #4966c5;
+  border-radius: 5px;
+  padding: 2px;
+  margin:2px;
+}
+.history-btn:hover{
+  background-color: #4966c5;
+  color: white;
+}

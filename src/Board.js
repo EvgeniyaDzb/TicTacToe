@@ -1,20 +1,22 @@
 import React from "react"
 import {Square} from './Square';
+import './Board.css';
 
 export class Board extends React.Component{
 
     renderSquare(i){
       return (
       <Square 
+      isWinning={this.props.winningSquares.includes(i)}
       value={this.props.squares[i]}
       onClick={()=> this.props.onClick(i)}
       />
       );
     }
-  
+
     render (){
       return(
-        <div>
+        <div className="board">
           <div className="board-row">
             {this.renderSquare(0)}
             {this.renderSquare(1)}

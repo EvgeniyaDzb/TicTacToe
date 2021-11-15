@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tic-Tac-Toe built in React.
+
+Added additional features:
+
+Display the location for each move in the format (col, row) in the move history list.
+When someone wins, highlight the three squares that caused the win.
+When no one wins, display a message about the result being a draw.
+
 
 ## Available Scripts
 
@@ -68,3 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Display the location for each move in the format (col, row) in the move history list.
+Bold the currently selected item in the move list.
+When someone wins, highlight the three squares that caused the win.
+When no one wins, display a message about the result being a draw.
